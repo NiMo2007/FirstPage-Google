@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer utilities {
+    .bg-google {
+        background-color: rgb(53 , 53 , 53);
+    }
+    .hover {
+        background-color: rgb(71 , 71 , 71);
+    }
+    .bg {
+        background-color: rgb(42 , 42 , 42);
+    }
+}
