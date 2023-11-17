@@ -12,90 +12,228 @@
       <h1 class="text-8xl text-white tracking-tighter font-semibold">Google</h1>
       <!-- end header -->
       <!-- start search box -->
-      <div class="flex bg-white rounded-full px-5 py-2.5 mt-14 mb-5 md:w-[35rem] sm:w-[30rem]">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
-            </svg>          
-        <input type="text" class="mx-3 w-full focus:outline-none" placeholder="Search Google or type URL">
+      <div
+        class="flex bg-white rounded-full px-5 py-2.5 mt-14 mb-5 md:w-[35rem] sm:w-[30rem]"
+      >
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke-width="1.5"
+          stroke="currentColor"
+          class="w-6 h-6"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z"
+          />
+        </svg>
+        <input
+          type="text"
+          class="mx-3 w-full focus:outline-none"
+          placeholder="Search Google or type URL"
+        />
         <button>
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 mr-4">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M12 18.75a6 6 0 006-6v-1.5m-6 7.5a6 6 0 01-6-6v-1.5m6 7.5v3.75m-3.75 0h7.5M12 15.75a3 3 0 01-3-3V4.5a3 3 0 116 0v8.25a3 3 0 01-3 3z" />
-          </svg>          
-        </button> 
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="w-5 h-5 mr-4"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M12 18.75a6 6 0 006-6v-1.5m-6 7.5a6 6 0 01-6-6v-1.5m6 7.5v3.75m-3.75 0h7.5M12 15.75a3 3 0 01-3-3V4.5a3 3 0 116 0v8.25a3 3 0 01-3 3z"
+            />
+          </svg>
+        </button>
         <button>
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M6.827 6.175A2.31 2.31 0 015.186 7.23c-.38.054-.757.112-1.134.175C2.999 7.58 2.25 8.507 2.25 9.574V18a2.25 2.25 0 002.25 2.25h15A2.25 2.25 0 0021.75 18V9.574c0-1.067-.75-1.994-1.802-2.169a47.865 47.865 0 00-1.134-.175 2.31 2.31 0 01-1.64-1.055l-.822-1.316a2.192 2.192 0 00-1.736-1.039 48.774 48.774 0 00-5.232 0 2.192 2.192 0 00-1.736 1.039l-.821 1.316z" />
-            <path stroke-linecap="round" stroke-linejoin="round" d="M16.5 12.75a4.5 4.5 0 11-9 0 4.5 4.5 0 019 0zM18.75 10.5h.008v.008h-.008V10.5z" />
-          </svg>          
-        </button>   
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="w-5 h-5"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M6.827 6.175A2.31 2.31 0 015.186 7.23c-.38.054-.757.112-1.134.175C2.999 7.58 2.25 8.507 2.25 9.574V18a2.25 2.25 0 002.25 2.25h15A2.25 2.25 0 0021.75 18V9.574c0-1.067-.75-1.994-1.802-2.169a47.865 47.865 0 00-1.134-.175 2.31 2.31 0 01-1.64-1.055l-.822-1.316a2.192 2.192 0 00-1.736-1.039 48.774 48.774 0 00-5.232 0 2.192 2.192 0 00-1.736 1.039l-.821 1.316z"
+            />
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M16.5 12.75a4.5 4.5 0 11-9 0 4.5 4.5 0 019 0zM18.75 10.5h.008v.008h-.008V10.5z"
+            />
+          </svg>
+        </button>
       </div>
       <!-- end search box -->
       <!-- start recently box -->
       <div class="flex flex-wrap sm:w-[30rem] md:w-[35rem] text-white">
-        <div class="md:w-1/5 sm:w-1/4 p-4 grid place-content-center rounded-lg hover:hover hover:cursor-pointer">
-          <img src="tail.png" alt="Danoup" class="rounded-full w-11 h-11 mb-3 ml-1 bg">
+        <div
+          class="md:w-1/5 sm:w-1/4 p-4 grid place-content-center rounded-lg hover:hover hover:cursor-pointer"
+        >
+          <img
+            src="tail.png"
+            alt="Danoup"
+            class="rounded-full w-11 h-11 mb-3 ml-1 bg"
+          />
           <p class="text-sm">Danoup</p>
         </div>
-        <div class="md:w-1/5 sm:w-1/4 p-4 grid place-content-center rounded-lg hover:hover hover:cursor-pointer">
-          <img src="tail.png" alt="Danoup" class="rounded-full w-11 h-11 mb-3 ml-1 bg">
+        <div
+          class="md:w-1/5 sm:w-1/4 p-4 grid place-content-center rounded-lg hover:hover hover:cursor-pointer"
+        >
+          <img
+            src="tail.png"
+            alt="Danoup"
+            class="rounded-full w-11 h-11 mb-3 ml-1 bg"
+          />
           <p class="text-sm">Danoup</p>
         </div>
-        <div class="md:w-1/5 sm:w-1/4 p-4 grid place-content-center rounded-lg hover:hover hover:cursor-pointer">
-          <img src="tail.png" alt="Danoup" class="rounded-full w-11 h-11 mb-3 ml-1 bg">
+        <div
+          class="md:w-1/5 sm:w-1/4 p-4 grid place-content-center rounded-lg hover:hover hover:cursor-pointer"
+        >
+          <img
+            src="tail.png"
+            alt="Danoup"
+            class="rounded-full w-11 h-11 mb-3 ml-1 bg"
+          />
           <p class="text-sm">Danoup</p>
         </div>
-        <div class="md:w-1/5 sm:w-1/4 p-4 grid place-content-center rounded-lg hover:hover hover:cursor-pointer">
-          <img src="tail.png" alt="Danoup" class="rounded-full w-11 h-11 mb-3 ml-1 bg">
+        <div
+          class="md:w-1/5 sm:w-1/4 p-4 grid place-content-center rounded-lg hover:hover hover:cursor-pointer"
+        >
+          <img
+            src="tail.png"
+            alt="Danoup"
+            class="rounded-full w-11 h-11 mb-3 ml-1 bg"
+          />
           <p class="text-sm">Danoup</p>
         </div>
-        <div class="md:w-1/5 sm:w-1/4 p-4 grid place-content-center rounded-lg hover:hover hover:cursor-pointer">
-          <img src="tail.png" alt="Danoup" class="rounded-full w-11 h-11 mb-3 ml-1 bg">
+        <div
+          class="md:w-1/5 sm:w-1/4 p-4 grid place-content-center rounded-lg hover:hover hover:cursor-pointer"
+        >
+          <img
+            src="tail.png"
+            alt="Danoup"
+            class="rounded-full w-11 h-11 mb-3 ml-1 bg"
+          />
           <p class="text-sm">Danoup</p>
         </div>
-        <div class="md:w-1/5 sm:w-1/4 p-4 grid place-content-center rounded-lg hover:hover hover:cursor-pointer">
-          <img src="tail.png" alt="Danoup" class="rounded-full w-11 h-11 mb-3 ml-1 bg">
+        <div
+          class="md:w-1/5 sm:w-1/4 p-4 grid place-content-center rounded-lg hover:hover hover:cursor-pointer"
+        >
+          <img
+            src="tail.png"
+            alt="Danoup"
+            class="rounded-full w-11 h-11 mb-3 ml-1 bg"
+          />
           <p class="text-sm">Danoup</p>
         </div>
-        <div class="md:w-1/5 sm:w-1/4 p-4 grid place-content-center rounded-lg hover:hover hover:cursor-pointer">
-          <img src="tail.png" alt="Danoup" class="rounded-full w-11 h-11 mb-3 ml-1 bg">
+        <div
+          class="md:w-1/5 sm:w-1/4 p-4 grid place-content-center rounded-lg hover:hover hover:cursor-pointer"
+        >
+          <img
+            src="tail.png"
+            alt="Danoup"
+            class="rounded-full w-11 h-11 mb-3 ml-1 bg"
+          />
           <p class="text-sm">Danoup</p>
         </div>
-        <div class="md:w-1/5 sm:w-1/4 p-4 grid place-content-center rounded-lg hover:hover hover:cursor-pointer">
-          <img src="tail.png" alt="Danoup" class="rounded-full w-11 h-11 mb-3 ml-1 bg">
+        <div
+          class="md:w-1/5 sm:w-1/4 p-4 grid place-content-center rounded-lg hover:hover hover:cursor-pointer"
+        >
+          <img
+            src="tail.png"
+            alt="Danoup"
+            class="rounded-full w-11 h-11 mb-3 ml-1 bg"
+          />
           <p class="text-sm">Danoup</p>
         </div>
-        <div class="md:w-1/5 sm:w-1/4 p-4 grid place-content-center rounded-lg hover:hover hover:cursor-pointer">
-          <img src="tail.png" alt="Danoup" class="rounded-full w-11 h-11 mb-3 ml-1 bg">
+        <div
+          class="md:w-1/5 sm:w-1/4 p-4 grid place-content-center rounded-lg hover:hover hover:cursor-pointer"
+        >
+          <img
+            src="tail.png"
+            alt="Danoup"
+            class="rounded-full w-11 h-11 mb-3 ml-1 bg"
+          />
           <p class="text-sm">Danoup</p>
         </div>
-        <div class="md:w-1/5 sm:w-1/4 p-4 grid place-content-center rounded-lg hover:hover hover:cursor-pointer">
+        <div
+          class="md:w-1/5 sm:w-1/4 p-4 grid place-content-center rounded-lg hover:hover hover:cursor-pointer"
+        >
           <div class="mb-3 ml-2.5">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="-1.32L19" stroke="currentColor" class=" w-12 h-12  rounded-full bg">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v12m6-6H6" />
-            </svg> 
-          </div>         
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="-1.32L19"
+              stroke="currentColor"
+              class="w-12 h-12 rounded-full bg"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M12 6v12m6-6H6"
+              />
+            </svg>
+          </div>
           <p class="text-xs">Add shortcut</p>
         </div>
-      </div>    
+      </div>
       <!-- end recently box -->
       <!-- start customize chrome -->
-      <div class="flex justify-around absolute bottom-4 right-4 bg px-4 py-1.5 rounded-full text-gray-400 text-sm hover:hover hover:cursor-pointer shadow-md">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-3.5 h-3.5 mr-2 my-1">
-              <path d="M21.731 2.269a2.625 2.625 0 00-3.712 0l-1.157 1.157 3.712 3.712 1.157-1.157a2.625 2.625 0 000-3.712zM19.513 8.199l-3.712-3.712-12.15 12.15a5.25 5.25 0 00-1.32 2.214l-.8 2.685a.75.75 0 00.933.933l2.685-.8a5.25 5.25 0 002.214-1.32L19.513 8.2z" />
-            </svg>
-            <p class="text-[0.8rem]">Customize Chrome</p>       
+      <div
+        class="flex justify-around absolute bottom-4 right-4 bg px-4 py-1.5 rounded-full text-gray-400 text-sm hover:hover hover:cursor-pointer shadow-md"
+      >
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 24 24"
+          fill="currentColor"
+          class="w-3.5 h-3.5 mr-2 my-1"
+        >
+          <path
+            d="M21.731 2.269a2.625 2.625 0 00-3.712 0l-1.157 1.157 3.712 3.712 1.157-1.157a2.625 2.625 0 000-3.712zM19.513 8.199l-3.712-3.712-12.15 12.15a5.25 5.25 0 00-1.32 2.214l-.8 2.685a.75.75 0 00.933.933l2.685-.8a5.25 5.25 0 002.214-1.32L19.513 8.2z"
+          />
+        </svg>
+        <p class="text-[0.8rem]">Customize Chrome</p>
       </div>
       <!-- end customize chrome -->
       <!-- start user details -->
-      <div class="flex justify-between items-center text-white w-48 absolute right-4 top-2.5 tracking-tighter">
-        <p class="hover:cursor-pointer hover:underline">Gmail</p>
-        <p class="hover:cursor-pointer hover:underline">Images</p>
+      <div
+        class="flex justify-between items-center text-white w-48 absolute right-4 top-2.5 tracking-tighter"
+      >
+        <p class="hover:cursor-pointer hover:underline font-semibold text-sm">
+          Gmail
+        </p>
+        <p class="hover:cursor-pointer hover:underline font-semibold text-sm">
+          Images
+        </p>
         <div class="hover:hover w-11 h-11 rounded-full">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6 mx-1 hover:cursor-pointer mt-2.5 ml-2.5">
-            <path fill-rule="evenodd" d="M3 6.75A.75.75 0 013.75 6h16.5a.75.75 0 010 1.5H3.75A.75.75 0 013 6.75zM3 12a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75A.75.75 0 013 12zm0 5.25a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75a.75.75 0 01-.75-.75z" clip-rule="evenodd" />
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            fill="currentColor"
+            class="w-6 h-6 mx-1 hover:cursor-pointer mt-2.5 ml-2.5"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M3 6.75A.75.75 0 013.75 6h16.5a.75.75 0 010 1.5H3.75A.75.75 0 013 6.75zM3 12a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75A.75.75 0 013 12zm0 5.25a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75a.75.75 0 01-.75-.75z"
+              clip-rule="evenodd"
+            />
           </svg>
         </div>
-        <img src="tail.png" alt="" class="rounded-full w-8 h-8 hover:cursor-pointer">      
+        <img
+          src="tail.png"
+          alt=""
+          class="rounded-full w-8 h-8 hover:cursor-pointer"
+        />
       </div>
       <!-- end user details -->
     </div>
